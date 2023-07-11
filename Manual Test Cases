@@ -1,0 +1,26 @@
+Part 2 – Functional Manual Testing
+Please write three test cases (non-automated) for the endpoint above using Gherkin. Take a good look at the data in the API and come up with three test cases. You can write them in Gherkin format if you wish.
+
+Answer:-
+
+@test1
+Scenario : Verify status code and response time
+Given the user has access to the ottplatform/media API
+When the user sends a GET request to the API
+Then the response status code should be 200
+And the response time should be less than 1000 milliseconds  
+
+@test2    
+Scenario : Verify id and segment_type in response
+Given the user has access to the ottplatform/media API
+When the user sends a GET request to the API
+Then the response status code should be 200
+And each item in the response should have an id that is not null or empty
+And each item in the response should have a segment_type of "music"
+
+@test3
+Scenario : Verify primary field in response
+Given the user has access to the ottplatform/media API
+When the user sends a GET request to the API
+Then the response status code should be 200
+And each item in the response should have a primary field that is not null or empty
