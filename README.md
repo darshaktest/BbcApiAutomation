@@ -46,3 +46,5 @@ Main features
 - Validate JSON status code and responce time 
 - Should Support Each and Every platforms.
 - can be Executed within the local IDE.
+
+# Note:- Added manual Test cases in the current repository.  
