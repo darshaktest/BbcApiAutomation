@@ -47,4 +47,9 @@ Main features
 - Should Support Each and Every platforms.
 - can be Executed within the local IDE.
 
+  # Output for the Automation
+
+  ![image](https://github.com/darshaktest/BbcApiAutomation/assets/138388207/1b488abc-eccb-4133-8827-0b28f30e43d5)
+
+
 # Note:- Added manual Test cases in the current repository.  
